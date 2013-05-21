@@ -1,2 +1,4 @@
 name: Studio Styleblog
 pygments: true
+permalink: /:categories/:title
+timezone: Australia/Brisbane
