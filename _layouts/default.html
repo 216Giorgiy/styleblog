@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>{{ page.title }}</title>
+  <link rel="shortcut icon" href="/images/favicon.png" />
   <link href="/feed.xml" rel="alternate" title="RSS" type="application/rss+xml" />
 
   <link rel="stylesheet" href="/css/normalize.css" />
@@ -16,7 +17,16 @@
   <script src="/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-  {{ content }}
+  <div class="row">
+    <div class="large-3 columns" style="padding-top:5em;">
+      <h5><a href="/">Studio Styleblog</a></h5>
+      <p>The blog for <a href="http://studiostyl.es">studiostyl.es</a></p>
+    </div>
+    <div class="large-9 columns">
+      {{ content }}
+    </div>
+    
+  </div>
 
   <script>
   document.write('<script src=' +
