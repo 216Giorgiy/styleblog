@@ -1,4 +1,6 @@
 name: Studio Styleblog
+description: The blog for Studio Styles
+url: http://blog.studiostyles.info
 pygments: true
 permalink: /:categories/:title
 timezone: Australia/Brisbane
